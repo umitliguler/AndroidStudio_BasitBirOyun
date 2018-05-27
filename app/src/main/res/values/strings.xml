@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="message">Oyuna Hosgeldiniz..</string>
+    <string name="saldir">saldir !</string>
+    <string name="yemekye">Yemek Ye !</string>
+    <string name="Uyu">Uyu !</string>
+    <string name="eylem">eylem</string>
+</resources>

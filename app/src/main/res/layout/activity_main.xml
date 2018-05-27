@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:background="?android:attr/colorPressedHighlight"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        tools:padding="@android:dimen/notification_large_icon_height"
+        tools:visibility="invisible" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="147dp">
+
+        <Button
+            android:id="@+id/saldir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+            android:text="@string/saldir" />
+
+        <Button
+            android:id="@+id/yemek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/yemekye" />
+
+        <Button
+            android:id="@+id/uyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/Uyu" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Karaketerin ismini giriniz:" />
+
+    <TextView
+        android:id="@+id/eylem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+
+
+        />
+
+</LinearLayout>
